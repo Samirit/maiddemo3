@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maid Recommendation Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        #queryInput {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #submitQuery {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        #submitQuery:hover {
+            background-color: #2980b9;
+        }
+
+        #answerSection {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Maid Recommendation Chat</h1>
+    <p>Welcome to our Maid Recommendation Service! Ask any questions about our maids.</p>
+    <input type="text" id="queryInput" placeholder="Ask a question about our maids...">
+    <button id="submitQuery">Submit</button>
+
+    <!-- Display responses in an iframe -->
+    <iframe src="chatpdf_response.html" id="responseFrame" style="width: 80%; height: 400px; border: none;"></iframe>
+
+    <!-- Add your JavaScript file here -->
+    <script src="chatpdf.js"></script>
+</body>
+</html>
