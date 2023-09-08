@@ -4,7 +4,7 @@
   "description": "Maid Recommendation Chat Application",
   "main": "chatpdf.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": null
   },
   "repository": {
     "type": "git",
