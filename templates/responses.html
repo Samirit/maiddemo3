@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ChatPDF Responses</title>
+    <title>Response</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,7 +26,9 @@
     </style>
 </head>
 <body>
-    <h2>ChatPDF Responses</h2>
-    <div id="responseSection"></div>
+    <h2>Responses</h2>
+    <div id="responseSection">
+        {{ response | safe }}
+    </div>
 </body>
 </html>
