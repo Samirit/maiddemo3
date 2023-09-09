@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('chatmaid.html')
+    return render_template('index.html')
 
 @app.route('/get_response', methods=['POST'])
 def get_response():
